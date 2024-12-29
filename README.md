@@ -2,12 +2,19 @@
 A scraper can look for the flight information of fliggy
 # how to use 
 1.pull the iamge
+
 docker pull python:3.9-slim
+
 docker pull selenium/standalone-chrome:latest
+
 2.build the real iamges
+
 docker-compose buil
+
 3.run the containers
+
 docker-compose run scraper python scraper/main.py --dep NKG(the IATA code of the airport in china) --arr WUH(the IATA code of the airport in china) --date 2024-12-31
+
 4.wait for seconds then you can get the result
 ## the usual IATA code of the airport in china
 ATA 代码	城市	机场名称
